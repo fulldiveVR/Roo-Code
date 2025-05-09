@@ -3,7 +3,7 @@ import Mocha from "mocha"
 import { glob } from "glob"
 import * as vscode from "vscode"
 
-import type { RooCodeAPI } from "../../../src/exports/roo-code"
+import type { RooCodeAPI } from "../../../src/exports/wizee"
 
 import { waitFor } from "./utils"
 

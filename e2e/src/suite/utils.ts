@@ -1,4 +1,4 @@
-import type { RooCodeAPI } from "../../../src/exports/roo-code"
+import type { RooCodeAPI } from "../../../src/exports/wizee"
 
 type WaitForOptions = {
 	timeout?: number
