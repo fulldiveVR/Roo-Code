@@ -5,26 +5,26 @@ import { EditorUtils } from "../integrations/editor/EditorUtils"
 export type CodeActionName = "EXPLAIN" | "FIX" | "IMPROVE" | "ADD_TO_CONTEXT" | "NEW_TASK"
 
 export type CodeActionId =
-	| "roo-cline.explainCode"
-	| "roo-cline.fixCode"
-	| "roo-cline.improveCode"
-	| "roo-cline.addToContext"
-	| "roo-cline.newTask"
+	| "wizee.explainCode"
+	| "wizee.fixCode"
+	| "wizee.improveCode"
+	| "wizee.addToContext"
+	| "wizee.newTask"
 
 export const ACTION_TITLES: Record<CodeActionName, string> = {
 	EXPLAIN: "Explain with Roo Code",
 	FIX: "Fix with Roo Code",
 	IMPROVE: "Improve with Roo Code",
 	ADD_TO_CONTEXT: "Add to Roo Code",
-	NEW_TASK: "New Roo Code Task",
+	NEW_TASK: "New Wizee Task",
 } as const
 
 export const COMMAND_IDS: Record<CodeActionName, CodeActionId> = {
-	EXPLAIN: "roo-cline.explainCode",
-	FIX: "roo-cline.fixCode",
-	IMPROVE: "roo-cline.improveCode",
-	ADD_TO_CONTEXT: "roo-cline.addToContext",
-	NEW_TASK: "roo-cline.newTask",
+	EXPLAIN: "wizee.explainCode",
+	FIX: "wizee.fixCode",
+	IMPROVE: "wizee.improveCode",
+	ADD_TO_CONTEXT: "wizee.addToContext",
+	NEW_TASK: "wizee.newTask",
 } as const
 
 export class CodeActionProvider implements vscode.CodeActionProvider {

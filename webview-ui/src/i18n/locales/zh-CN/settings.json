@@ -175,7 +175,7 @@
 			"draftModelDesc": "草稿模型必须来自相同的模型系列，推测性解码才能正常工作。",
 			"selectDraftModel": "选择草稿模型",
 			"noModelsFound": "未找到草稿模型。请确保 LM Studio 已启用服务器模式运行。",
-			"description": "LM Studio 允许您在本地计算机上运行模型。要了解如何开始，请参阅他们的 <a>快速入门指南</a>。您还需要启动 LM Studio 的 <b>本地服务器</b> 功能，以便与此扩展一起使用。<span>注意：</span>Roo Code 使用复杂的提示，并且在 Claude 模型上效果最佳。功能较弱的模型可能无法正常工作。"
+			"description": "LM Studio 允许您在本地计算机上运行模型。要了解如何开始，请参阅他们的 <a>快速入门指南</a>。您还需要启动 LM Studio 的 <b>本地服务器</b> 功能，以便与此扩展一起使用。<span>注意：</span>Wizee 使用复杂的提示，并且在 Claude 模型上效果最佳。功能较弱的模型可能无法正常工作。"
 		},
 		"ollama": {
 			"baseUrl": "基础 URL（可选）",
@@ -458,7 +458,7 @@
 	},
 	"footer": {
 		"feedback": "如果您有任何问题或反馈，请随时在 <githubLink>github.com/RooVetGit/Roo-Code</githubLink> 上提出问题或加入 <redditLink>reddit.com/r/RooCode</redditLink> 或 <discordLink>discord.gg/roocode</discordLink>",
-		"version": "Roo Code v{{version}}",
+		"version": "Wizee v{{version}}",
 		"telemetry": {
 			"label": "允许匿名数据收集",
 			"description": "匿名收集错误报告和使用数据（不含代码/提示/个人信息），详情见隐私政策"

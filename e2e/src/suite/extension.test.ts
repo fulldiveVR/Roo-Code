@@ -1,18 +1,18 @@
 import * as assert from "assert"
 import * as vscode from "vscode"
 
-suite("Roo Code Extension", () => {
+suite("Wizee Code Extension", () => {
 	test("Commands should be registered", async () => {
 		const expectedCommands = [
-			"roo-cline.plusButtonClicked",
-			"roo-cline.mcpButtonClicked",
-			"roo-cline.historyButtonClicked",
-			"roo-cline.popoutButtonClicked",
-			"roo-cline.settingsButtonClicked",
-			"roo-cline.openInNewTab",
-			"roo-cline.explainCode",
-			"roo-cline.fixCode",
-			"roo-cline.improveCode",
+			"wizee.plusButtonClicked",
+			"wizee.mcpButtonClicked",
+			"wizee.historyButtonClicked",
+			"wizee.popoutButtonClicked",
+			"wizee.settingsButtonClicked",
+			"wizee.openInNewTab",
+			"wizee.explainCode",
+			"wizee.fixCode",
+			"wizee.improveCode",
 		]
 
 		const commands = await vscode.commands.getCommands(true)

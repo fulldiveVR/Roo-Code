@@ -9,7 +9,7 @@
 2. Add the setting to type definitions:
 
     - Add the item to `src/exports/types.ts`
-    - Add the item to `src/exports/roo-code.d.ts`
+    - Add the item to `src/exports/wizee.d.ts`
     - Add the setting to `src/shared/ExtensionMessage.ts`
     - Add the setting to the WebviewMessage type in `src/shared/WebviewMessage.ts`
     - Example: `terminalCommandDelay?: number | undefined`
@@ -197,7 +197,7 @@ To add a new configuration item to the system, the following changes are necessa
 3.  **Type Definitions**
 
     - Add the item to src/exports/types.ts
-    - Add the item to src/exports/roo-code.d.ts
+    - Add the item to src/exports/wizee.d.ts
     - Add the item to src/shared/ExtensionMessage.ts
     - Add the item to src/shared/WebviewMessage.ts
 

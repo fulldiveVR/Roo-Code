@@ -175,13 +175,13 @@
 			"draftModelDesc": "草稿模型必須來自相同模型系列才能正確運作。",
 			"selectDraftModel": "選擇草稿模型",
 			"noModelsFound": "未找到草稿模型。請確保 LM Studio 以伺服器模式執行。",
-			"description": "LM Studio 允許您在本機電腦執行模型。詳細資訊請參閱快速入門指南。您需要啟動 LM Studio 的本機伺服器功能才能與此擴充功能搭配使用。<span>注意：</span> Roo Code 使用複雜提示，與 Claude 模型搭配最佳。功能較弱的模型可能無法正常運作。"
+			"description": "LM Studio 允許您在本機電腦執行模型。詳細資訊請參閱快速入門指南。您需要啟動 LM Studio 的本機伺服器功能才能與此擴充功能搭配使用。<span>注意：</span> Wizee 使用複雜提示，與 Claude 模型搭配最佳。功能較弱的模型可能無法正常運作。"
 		},
 		"ollama": {
 			"baseUrl": "基礎 URL（選用）",
 			"modelId": "模型 ID",
 			"description": "Ollama 允許您在本機電腦執行模型。請參閱快速入門指南。",
-			"warning": "注意：Roo Code 使用複雜提示，與 Claude 模型搭配最佳。功能較弱的模型可能無法正常運作。"
+			"warning": "注意：Wizee 使用複雜提示，與 Claude 模型搭配最佳。功能較弱的模型可能無法正常運作。"
 		},
 		"unboundApiKey": "Unbound API 金鑰",
 		"getUnboundApiKey": "取得 Unbound API 金鑰",
@@ -197,7 +197,7 @@
 			}
 		},
 		"customModel": {
-			"capabilities": "設定自訂 OpenAI 相容模型的功能和定價。請謹慎設定模型功能，因為這會影響 Roo Code 的運作方式。",
+			"capabilities": "設定自訂 OpenAI 相容模型的功能和定價。請謹慎設定模型功能，因為這會影響 Wizee 的運作方式。",
 			"maxTokens": {
 				"label": "最大輸出 Token",
 				"description": "模型能在一則回應中產生的最大 Token 數量。（設為 -1 則由伺服器決定最大值）"
@@ -450,7 +450,7 @@
 		}
 	},
 	"modelPicker": {
-		"automaticFetch": "此擴充功能會自動從 <serviceLink>{{serviceName}}</serviceLink> 取得最新的可用模型清單。如果不確定要選哪個模型，建議使用 <defaultModelLink>{{defaultModelId}}</defaultModelLink>，這是與 Roo Code 最佳搭配的模型。您也可以搜尋「free」來檢視目前可用的免費選項。",
+		"automaticFetch": "此擴充功能會自動從 <serviceLink>{{serviceName}}</serviceLink> 取得最新的可用模型清單。如果不確定要選哪個模型，建議使用 <defaultModelLink>{{defaultModelId}}</defaultModelLink>，這是與 Wizee 最佳搭配的模型。您也可以搜尋「free」來檢視目前可用的免費選項。",
 		"label": "模型",
 		"searchPlaceholder": "搜尋",
 		"noMatchFound": "找不到符合的項目",

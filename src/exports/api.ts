@@ -102,7 +102,7 @@ export class API extends EventEmitter<RooCodeEvents> implements RooCodeAPI {
 			provider = await openClineInNewTab({ context: this.context, outputChannel: this.outputChannel })
 			this.registerListeners(provider)
 		} else {
-			await vscode.commands.executeCommand("roo-cline.SidebarProvider.focus")
+			await vscode.commands.executeCommand("wizee.SidebarProvider.focus")
 
 			provider = this.sidebarProvider
 		}
@@ -112,7 +112,7 @@ export class API extends EventEmitter<RooCodeEvents> implements RooCodeAPI {
 
 			if (configuration.allowedCommands) {
 				await vscode.workspace
-					.getConfiguration("roo-cline")
+					.getConfiguration("wizee")
 					.update("allowedCommands", configuration.allowedCommands, vscode.ConfigurationTarget.Global)
 			}
 		}

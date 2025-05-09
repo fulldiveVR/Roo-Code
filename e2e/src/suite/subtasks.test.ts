@@ -1,10 +1,10 @@
 import * as assert from "assert"
 
-import type { ClineMessage } from "../../../src/exports/roo-code"
+import type { ClineMessage } from "../../../src/exports/wizee"
 
 import { sleep, waitFor, waitUntilCompleted } from "./utils"
 
-suite.skip("Roo Code Subtasks", () => {
+suite.skip("Wizee Code Subtasks", () => {
 	test("Should handle subtask cancellation and resumption correctly", async () => {
 		const api = globalThis.api
 

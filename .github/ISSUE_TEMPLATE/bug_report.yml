@@ -7,7 +7,7 @@ body:
       value: |
         **Thank you for taking the time to fill out this bug report!**
 
-        Please ensure this bug hasn't been reported already by searching existing [GitHub Issues](https://github.com/RooVetGit/Roo-Code/issues).
+        Please ensure this bug hasn't been reported already by searching existing [GitHub Issues](https://github.com/fulldiveVR/Roo-Code/issues).
   - type: input
     id: version
     attributes:

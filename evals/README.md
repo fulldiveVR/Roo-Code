@@ -1,13 +1,13 @@
-# Run Roo Code Evals
+# Run Wizee Evals
 
 ## Get Started
 
 NOTE: This is MacOS only for now!
 
-Clone the Roo Code repo:
+Clone the Wizee repo:
 
 ```sh
-git clone https://github.com/RooVetGit/Roo-Code.git
+git clone https://github.com/fulldiveVR/wizee.git
 cd Roo-Code
 ```
 

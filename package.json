@@ -1,8 +1,8 @@
 {
-	"name": "roo-cline",
+	"name": "wizee",
 	"displayName": "%extension.displayName%",
 	"description": "%extension.description%",
-	"publisher": "RooVeterinaryInc",
+	"publisher": "AiWize",
 	"version": "3.16.3",
 	"icon": "assets/icons/icon.png",
 	"galleryBanner": {
@@ -18,9 +18,9 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/RooVetGit/Roo-Code"
+		"url": "https://github.com/fulldiveVR/Roo-Code"
 	},
-	"homepage": "https://github.com/RooVetGit/Roo-Code",
+	"homepage": "https://github.com/fulldiveVR/Roo-Code",
 	"categories": [
 		"AI",
 		"Chat",
@@ -53,115 +53,115 @@
 	"contributes": {
 		"submenus": [
 			{
-				"id": "roo-code.contextMenu",
+				"id": "wizee.contextMenu",
 				"label": "%views.contextMenu.label%"
 			},
 			{
-				"id": "roo-code.terminalMenu",
+				"id": "wizee.terminalMenu",
 				"label": "%views.terminalMenu.label%"
 			}
 		],
 		"viewsContainers": {
 			"activitybar": [
 				{
-					"id": "roo-cline-ActivityBar",
+					"id": "wizee-ActivityBar",
 					"title": "%views.activitybar.title%",
 					"icon": "assets/icons/icon.svg"
 				}
 			]
 		},
 		"views": {
-			"roo-cline-ActivityBar": [
+			"wizee-ActivityBar": [
 				{
 					"type": "webview",
-					"id": "roo-cline.SidebarProvider",
+					"id": "wizee.SidebarProvider",
 					"name": ""
 				}
 			]
 		},
 		"commands": [
 			{
-				"command": "roo-cline.plusButtonClicked",
+				"command": "wizee.plusButtonClicked",
 				"title": "%command.newTask.title%",
 				"icon": "$(add)"
 			},
 			{
-				"command": "roo-cline.mcpButtonClicked",
+				"command": "wizee.mcpButtonClicked",
 				"title": "%command.mcpServers.title%",
 				"icon": "$(server)"
 			},
 			{
-				"command": "roo-cline.promptsButtonClicked",
+				"command": "wizee.promptsButtonClicked",
 				"title": "%command.prompts.title%",
 				"icon": "$(notebook)"
 			},
 			{
-				"command": "roo-cline.historyButtonClicked",
+				"command": "wizee.historyButtonClicked",
 				"title": "%command.history.title%",
 				"icon": "$(history)"
 			},
 			{
-				"command": "roo-cline.popoutButtonClicked",
+				"command": "wizee.popoutButtonClicked",
 				"title": "%command.openInEditor.title%",
 				"icon": "$(link-external)"
 			},
 			{
-				"command": "roo-cline.settingsButtonClicked",
+				"command": "wizee.settingsButtonClicked",
 				"title": "%command.settings.title%",
 				"icon": "$(settings-gear)"
 			},
 			{
-				"command": "roo-cline.openInNewTab",
+				"command": "wizee.openInNewTab",
 				"title": "%command.openInNewTab.title%",
 				"category": "%configuration.title%"
 			},
 			{
-				"command": "roo-cline.explainCode",
+				"command": "wizee.explainCode",
 				"title": "%command.explainCode.title%",
 				"category": "%configuration.title%"
 			},
 			{
-				"command": "roo-cline.fixCode",
+				"command": "wizee.fixCode",
 				"title": "%command.fixCode.title%",
 				"category": "%configuration.title%"
 			},
 			{
-				"command": "roo-cline.improveCode",
+				"command": "wizee.improveCode",
 				"title": "%command.improveCode.title%",
 				"category": "%configuration.title%"
 			},
 			{
-				"command": "roo-cline.addToContext",
+				"command": "wizee.addToContext",
 				"title": "%command.addToContext.title%",
 				"category": "%configuration.title%"
 			},
 			{
-				"command": "roo-cline.newTask",
+				"command": "wizee.newTask",
 				"title": "%command.newTask.title%",
 				"category": "%configuration.title%"
 			},
 			{
-				"command": "roo-cline.terminalAddToContext",
+				"command": "wizee.terminalAddToContext",
 				"title": "%command.terminal.addToContext.title%",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalFixCommand",
+				"command": "wizee.terminalFixCommand",
 				"title": "%command.terminal.fixCommand.title%",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.terminalExplainCommand",
+				"command": "wizee.terminalExplainCommand",
 				"title": "%command.terminal.explainCommand.title%",
 				"category": "Terminal"
 			},
 			{
-				"command": "roo-cline.setCustomStoragePath",
+				"command": "wizee.setCustomStoragePath",
 				"title": "%command.setCustomStoragePath.title%",
 				"category": "%configuration.title%"
 			},
 			{
-				"command": "roo-cline.focusInput",
+				"command": "wizee.focusInput",
 				"title": "%command.focusInput.title%",
 				"category": "%configuration.title%"
 			},
@@ -174,113 +174,113 @@
 		"menus": {
 			"editor/context": [
 				{
-					"submenu": "roo-code.contextMenu",
+					"submenu": "wizee.contextMenu",
 					"group": "navigation"
 				}
 			],
-			"roo-code.contextMenu": [
+			"wizee.contextMenu": [
 				{
-					"command": "roo-cline.addToContext",
+					"command": "wizee.addToContext",
 					"group": "1_actions@1"
 				},
 				{
-					"command": "roo-cline.explainCode",
+					"command": "wizee.explainCode",
 					"group": "1_actions@2"
 				},
 				{
-					"command": "roo-cline.improveCode",
+					"command": "wizee.improveCode",
 					"group": "1_actions@3"
 				}
 			],
 			"terminal/context": [
 				{
-					"submenu": "roo-code.terminalMenu",
+					"submenu": "wizee.terminalMenu",
 					"group": "navigation"
 				}
 			],
-			"roo-code.terminalMenu": [
+			"wizee.terminalMenu": [
 				{
-					"command": "roo-cline.terminalAddToContext",
+					"command": "wizee.terminalAddToContext",
 					"group": "1_actions@1"
 				},
 				{
-					"command": "roo-cline.terminalFixCommand",
+					"command": "wizee.terminalFixCommand",
 					"group": "1_actions@2"
 				},
 				{
-					"command": "roo-cline.terminalExplainCommand",
+					"command": "wizee.terminalExplainCommand",
 					"group": "1_actions@3"
 				}
 			],
 			"view/title": [
 				{
-					"command": "roo-cline.plusButtonClicked",
+					"command": "wizee.plusButtonClicked",
 					"group": "navigation@1",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wizee.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.promptsButtonClicked",
+					"command": "wizee.promptsButtonClicked",
 					"group": "navigation@2",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wizee.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.mcpButtonClicked",
+					"command": "wizee.mcpButtonClicked",
 					"group": "navigation@3",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wizee.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.historyButtonClicked",
+					"command": "wizee.historyButtonClicked",
 					"group": "navigation@4",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wizee.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.popoutButtonClicked",
+					"command": "wizee.popoutButtonClicked",
 					"group": "navigation@5",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wizee.SidebarProvider"
 				},
 				{
-					"command": "roo-cline.settingsButtonClicked",
+					"command": "wizee.settingsButtonClicked",
 					"group": "navigation@6",
-					"when": "view == roo-cline.SidebarProvider"
+					"when": "view == wizee.SidebarProvider"
 				}
 			],
 			"editor/title": [
 				{
-					"command": "roo-cline.plusButtonClicked",
+					"command": "wizee.plusButtonClicked",
 					"group": "navigation@1",
-					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
+					"when": "activeWebviewPanelId == wizee.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.promptsButtonClicked",
+					"command": "wizee.promptsButtonClicked",
 					"group": "navigation@2",
-					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
+					"when": "activeWebviewPanelId == wizee.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.mcpButtonClicked",
+					"command": "wizee.mcpButtonClicked",
 					"group": "navigation@3",
-					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
+					"when": "activeWebviewPanelId == wizee.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.historyButtonClicked",
+					"command": "wizee.historyButtonClicked",
 					"group": "navigation@4",
-					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
+					"when": "activeWebviewPanelId == wizee.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.popoutButtonClicked",
+					"command": "wizee.popoutButtonClicked",
 					"group": "navigation@5",
-					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
+					"when": "activeWebviewPanelId == wizee.TabPanelProvider"
 				},
 				{
-					"command": "roo-cline.settingsButtonClicked",
+					"command": "wizee.settingsButtonClicked",
 					"group": "navigation@6",
-					"when": "activeWebviewPanelId == roo-cline.TabPanelProvider"
+					"when": "activeWebviewPanelId == wizee.TabPanelProvider"
 				}
 			]
 		},
 		"configuration": {
 			"title": "%configuration.title%",
 			"properties": {
-				"roo-cline.allowedCommands": {
+				"wizee.allowedCommands": {
 					"type": "array",
 					"items": {
 						"type": "string"
@@ -295,7 +295,7 @@
 					],
 					"description": "%commands.allowedCommands.description%"
 				},
-				"roo-cline.vsCodeLmModelSelector": {
+				"wizee.vsCodeLmModelSelector": {
 					"type": "object",
 					"properties": {
 						"vendor": {
@@ -309,7 +309,7 @@
 					},
 					"description": "%settings.vsCodeLmModelSelector.description%"
 				},
-				"roo-cline.customStoragePath": {
+				"wizee.customStoragePath": {
 					"type": "string",
 					"default": "",
 					"description": "%settings.customStoragePath.description%"

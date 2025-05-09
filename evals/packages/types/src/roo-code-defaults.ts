@@ -1,4 +1,4 @@
-import { RooCodeSettings } from "./roo-code.js"
+import { RooCodeSettings } from "./wizee.js"
 
 export const rooCodeDefaults: RooCodeSettings = {
 	apiProvider: "openrouter",

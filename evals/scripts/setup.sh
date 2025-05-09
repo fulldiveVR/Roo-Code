@@ -25,7 +25,7 @@ has_asdf_plugin() {
 }
 
 build_extension() {
-  echo "🔨 Building the Roo Code extension..."
+  echo "🔨 Building the Wizee Code extension..."
   cd ..
   mkdir -p bin
   npm run install-extension -- --silent --no-audit || exit 1
@@ -293,8 +293,8 @@ code --install-extension redhat.java &>/dev/null || exit 1
 code --install-extension ms-python.python&>/dev/null || exit 1
 code --install-extension rust-lang.rust-analyzer &>/dev/null || exit 1
 
-if ! code --list-extensions 2>/dev/null | grep -q "rooveterinaryinc.roo-cline"; then
-  code --install-extension rooveterinaryinc.roo-cline &>/dev/null || exit 1
+if ! code --list-extensions 2>/dev/null | grep -q "aiwize.wizee"; then
+  code --install-extension aiwize.wizee &>/dev/null || exit 1
 fi
 
 echo "✅ Done"
@@ -325,7 +325,7 @@ if [[ ! -s .env ]]; then
   cp .env.sample .env || exit 1
 fi
 
-echo -n "🗄️ Syncing Roo Code evals database... "
+echo -n "🗄️ Syncing Wizee Code evals database... "
 pnpm --filter @evals/db db:push &>/dev/null || exit 1
 pnpm --filter @evals/db db:enable-wal &>/dev/null || exit 1
 echo "✅ Done"
@@ -338,7 +338,7 @@ if ! grep -q "OPENROUTER_API_KEY" .env; then
 fi
 
 current_version=$(code --list-extensions --show-versions 2>/dev/null | grep roo)
-read -p "💻 Do you want to build a new version of the Roo Code extension? [currently $current_version] (y/N): " build_extension
+read -p "💻 Do you want to build a new version of the Wizee extension? [currently $current_version] (y/N): " build_extension
 
 if [[ "$build_extension" =~ ^[Yy]$ ]]; then
   build_extension
