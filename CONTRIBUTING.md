@@ -45,7 +45,7 @@ First, familiarize yourself with our community standards and project direction.
 
 ### 1. Code of Conduct
 
-All contributors must adhere to our [Code of Conduct](https://github.com/RooVetGit/Roo-Code/blob/main/CODE_OF_CONDUCT.md). Please read it before contributing.
+All contributors must adhere to our [Code of Conduct](https://github.com/fulldiveVR/Roo-Code/blob/main/CODE_OF_CONDUCT.md). Please read it before contributing.
 
 ### 2. Understand the Project Roadmap
 
@@ -134,12 +134,12 @@ We welcome various contributions:
 **All contributions must start with a GitHub Issue.** This is a critical step to ensure alignment and prevent wasted effort.
 
 - **Find or Create an Issue**:
-    - Before starting any work, search [GitHub Issues](https://github.com/RooVetGit/Roo-Code/issues) to see if an issue for your intended contribution already exists.
+    - Before starting any work, search [GitHub Issues](https://github.com/fulldiveVR/Roo-Code/issues) to see if an issue for your intended contribution already exists.
     - If it exists and is unassigned, comment on the issue to express your interest in taking it on. A maintainer will then assign it to you.
-    - If no issue exists, create a new one using the appropriate template on our [issues page](https://github.com/RooVetGit/Roo-Code/issues/new/choose):
+    - If no issue exists, create a new one using the appropriate template on our [issues page](https://github.com/fulldiveVR/Roo-Code/issues/new/choose):
         - For bugs, use the "Bug Report" template.
         - For new features, use the "Detailed Feature Proposal" template. Await approval from a maintainer (especially @hannesrudolph) before proceeding with implementation.
-        - **Note**: General ideas or preliminary discussions for features can start in [GitHub Discussions](https://github.com/RooVetGit/Roo-Code/discussions/categories/feature-requests). Once an idea is more concrete, a "Detailed Feature Proposal" issue should be created.
+        - **Note**: General ideas or preliminary discussions for features can start in [GitHub Discussions](https://github.com/fulldiveVR/Roo-Code/discussions/categories/feature-requests). Once an idea is more concrete, a "Detailed Feature Proposal" issue should be created.
 - **Claiming and Assignment**:
     - Clearly state your intention to work on an issue by commenting on it.
     - Wait for a maintainer to officially assign the issue to you in GitHub. This prevents multiple people from working on the same thing.
@@ -151,19 +151,19 @@ This approach helps us track work, ensure changes are desired, and coordinate ef
 ### 3. Deciding What to Work On
 
 - **Good First Issues**: Check the "Issue [Unassigned]" section of our [Roo Code Issues](https://github.com/orgs/RooVetGit/projects/1) GitHub Project.
-- **Documentation**: While this `CONTRIBUTING.md` is the primary guide for code contributions, if you're interested in contributing to other documentation (like user guides or API docs), please check the [Roo Code Docs repository](https://github.com/RooVetGit/Roo-Code-Docs) or inquire in the Discord community.
+- **Documentation**: While this `CONTRIBUTING.md` is the primary guide for code contributions, if you're interested in contributing to other documentation (like user guides or API docs), please check the [Roo Code Docs repository](https://github.com/fulldiveVR/Roo-Code-Docs) or inquire in the Discord community.
 - **Proposing New Features**:
-    1.  **Initial Idea/Discussion**: For broad or initial feature ideas, start a conversation in [GitHub Discussions](https://github.com/RooVetGit/Roo-Code/discussions/categories/feature-requests).
-    2.  **Formal Proposal**: For specific, actionable feature proposals ready for consideration and potential approval, create a "Detailed Feature Proposal" issue using the template on our [issues page](https://github.com/RooVetGit/Roo-Code/issues/new/choose). This is a key part of our **Issue-First Approach**.
+    1.  **Initial Idea/Discussion**: For broad or initial feature ideas, start a conversation in [GitHub Discussions](https://github.com/fulldiveVR/Roo-Code/discussions/categories/feature-requests).
+    2.  **Formal Proposal**: For specific, actionable feature proposals ready for consideration and potential approval, create a "Detailed Feature Proposal" issue using the template on our [issues page](https://github.com/fulldiveVR/Roo-Code/issues/new/choose). This is a key part of our **Issue-First Approach**.
 
 ### 4. Reporting Bugs or Issues
 
 If you find a bug:
 
-1.  **Search Existing Issues**: Check [GitHub Issues](https://github.com/RooVetGit/Roo-Code/issues) for duplicates.
-2.  **Create a New Issue**: If unique, use the "Bug Report" template on our [issues page](https://github.com/RooVetGit/Roo-Code/issues/new/choose).
+1.  **Search Existing Issues**: Check [GitHub Issues](https://github.com/fulldiveVR/Roo-Code/issues) for duplicates.
+2.  **Create a New Issue**: If unique, use the "Bug Report" template on our [issues page](https://github.com/fulldiveVR/Roo-Code/issues/new/choose).
 
-> 🔐 **Security Vulnerabilities**: If you discover a security vulnerability, please report it privately using [GitHub's security advisory tool](https://github.com/RooVetGit/Roo-Code/security/advisories/new). Do not create a public issue for security vulnerabilities.
+> 🔐 **Security Vulnerabilities**: If you discover a security vulnerability, please report it privately using [GitHub's security advisory tool](https://github.com/fulldiveVR/Roo-Code/security/advisories/new). Do not create a public issue for security vulnerabilities.
 
 ## III. Development & Submission Process
 
