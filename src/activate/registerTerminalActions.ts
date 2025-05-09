@@ -4,9 +4,9 @@ import { Terminal } from "../integrations/terminal/Terminal"
 import { t } from "../i18n"
 
 const TERMINAL_COMMAND_IDS = {
-	ADD_TO_CONTEXT: "roo-cline.terminalAddToContext",
-	FIX: "roo-cline.terminalFixCommand",
-	EXPLAIN: "roo-cline.terminalExplainCommand",
+	ADD_TO_CONTEXT: "wizee.terminalAddToContext",
+	FIX: "wizee.terminalFixCommand",
+	EXPLAIN: "wizee.terminalExplainCommand",
 } as const
 
 export const registerTerminalActions = (context: vscode.ExtensionContext) => {
