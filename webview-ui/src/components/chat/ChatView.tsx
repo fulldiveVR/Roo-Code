@@ -27,12 +27,11 @@ import { useSelectedModel } from "@/components/ui/hooks/useSelectedModel"
 import { validateCommand } from "@src/utils/command-validation"
 import { useAppTranslation } from "@src/i18n/TranslationContext"
 
-import TelemetryBanner from "../common/TelemetryBanner"
+// import TelemetryBanner from "../common/TelemetryBanner"
 import { useTaskSearch } from "../history/useTaskSearch"
 import HistoryPreview from "../history/HistoryPreview"
 import RooHero from "@src/components/welcome/RooHero"
 import RooTips from "@src/components/welcome/RooTips"
-import Announcement from "./Announcement"
 import BrowserSessionRow from "./BrowserSessionRow"
 import ChatRow from "./ChatRow"
 import ChatTextArea from "./ChatTextArea"
@@ -55,10 +54,7 @@ export const MAX_IMAGES_PER_MESSAGE = 20 // Anthropic limits to 20 images
 
 const isMac = navigator.platform.toUpperCase().indexOf("MAC") >= 0
 
-const ChatViewComponent: React.ForwardRefRenderFunction<ChatViewRef, ChatViewProps> = (
-	{ isHidden, showAnnouncement, hideAnnouncement },
-	ref,
-) => {
+const ChatViewComponent: React.ForwardRefRenderFunction<ChatViewRef, ChatViewProps> = ({ isHidden }, ref) => {
 	const { t } = useAppTranslation()
 	const modeShortcutText = `${isMac ? "⌘" : "Ctrl"} + . ${t("chat:forNextMode")}`
 	const {
@@ -81,7 +77,7 @@ const ChatViewComponent: React.ForwardRefRenderFunction<ChatViewRef, ChatViewPro
 		alwaysAllowModeSwitch,
 		alwaysAllowSubtasks,
 		customModes,
-		telemetrySetting,
+		// telemetrySetting,
 		hasSystemPromptOverride,
 		historyPreviewCollapsed, // Added historyPreviewCollapsed
 	} = useExtensionState()
@@ -1205,7 +1201,6 @@ const ChatViewComponent: React.ForwardRefRenderFunction<ChatViewRef, ChatViewPro
 
 	return (
 		<div className={isHidden ? "hidden" : "fixed top-0 left-0 right-0 bottom-0 flex flex-col overflow-hidden"}>
-			{showAnnouncement && <Announcement hideAnnouncement={hideAnnouncement} />}
 			{task ? (
 				<>
 					<TaskHeader
@@ -1250,7 +1245,7 @@ const ChatViewComponent: React.ForwardRefRenderFunction<ChatViewRef, ChatViewPro
 					<div
 						className={` w-full flex flex-col gap-4 m-auto ${isExpanded && tasks.length > 0 ? "mt-0" : ""} px-3.5 min-[370px]:px-10 pt-5 transition-all duration-300`}>
 						<RooHero />
-						{telemetrySetting === "unset" && <TelemetryBanner />}
+						{/* {telemetrySetting === "unset" && <TelemetryBanner />} */}
 						{/* Show the task history preview if expanded and tasks exist */}
 						{taskHistory.length > 0 && isExpanded && <HistoryPreview />}
 						<p className="text-vscode-editor-foreground leading-tight font-vscode-font-family text-center">
