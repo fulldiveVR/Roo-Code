@@ -16,7 +16,7 @@ export const ACTION_TITLES: Record<CodeActionName, string> = {
 	FIX: "Fix with Roo Code",
 	IMPROVE: "Improve with Roo Code",
 	ADD_TO_CONTEXT: "Add to Roo Code",
-	NEW_TASK: "New Roo Code Task",
+	NEW_TASK: "New Wizee Task",
 } as const
 
 export const COMMAND_IDS: Record<CodeActionName, CodeActionId> = {

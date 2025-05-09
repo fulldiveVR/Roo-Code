@@ -1,7 +1,7 @@
 import * as assert from "assert"
 import * as vscode from "vscode"
 
-suite("Roo Code Extension", () => {
+suite("Wizee Code Extension", () => {
 	test("Commands should be registered", async () => {
 		const expectedCommands = [
 			"wizee.plusButtonClicked",
